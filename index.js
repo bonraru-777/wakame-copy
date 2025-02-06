@@ -175,7 +175,7 @@ app.get('/ll/:id', async (req, res) => {
 //埋め込み再生
 app.get('/umekomi/:id', async (req, res) => {
   let videoId = req.params.id;
-  let url = `https://www.youtube.com/watch?v=${videoId}`;
+  let url = `https://www.youtubeeducation.com/watch?v=${videoId}`;
   
   try {
     const inforesponse = await axios.get(url);
